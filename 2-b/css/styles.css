@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #999;
+}
+#div1{
+    width: 780px;
+    height: 500px;
+    background: #F00;
+    margin: 5% auto;
+    padding: 20px;
+    overflow: hidden;
+}
+#div1 .div{
+    position: relative;
+    width: 20%;
+    height: 90%;
+    margin: 2.5% ;
+    float: left
+}
+#div1 #div2{
+    background: #00ff00;
+}
+#div1 #div3{
+    background: #0000ff;
+}
+#div1 #div4{
+    background: #888888;
+}
+#div1 #div5{
+    background: #000;
+}
+.clear-fix{
+    clear: both;
+}
