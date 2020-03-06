@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #999;
+}
+.caja-ej1a{
+    position: relative;
+    background: #0F0;
+
+    width: 350px;
+    height: 300px;
+    margin: 10% auto;
+}
