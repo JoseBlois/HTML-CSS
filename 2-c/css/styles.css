@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #999;
+    height: 100vh;
+}
+body div{
+    position: relative;
+    float: left;
+    left: 20%;
+}
+#div1,#div3{
+    height: 60%;
+    width: 10%;
+    margin: 100px 0;
+    background: lightcoral;
+}
+#div1{
+    background: #0F0;
+}
+#div3{
+background: #000;
+}
+#div2 {
+    height: 60%;
+    width: 40%;
+    margin: 100px 30px;
+    background: #F00;
+    padding: 40px 80px;
+}
+#div2 #div4,#div5{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    left: 0;
+}
+#div2 #div4{
+    background: #00F;
+    float: left;
+}
+#div2 #div5{
+    background: #888;
+    float: right;
+}
