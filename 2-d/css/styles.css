@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #00F;
+}
+#div1,#div2,#div3{
+    position: relative;
+    width: 75%;
+}
+#div1,#div3{
+    height: 12.5%;
+    margin: 2% auto;
+    background: #888;
+}
+#div2{
+    height: 65%;
+    margin: 2% auto;
+    background: #F00;
+    padding: 40px;
+}
+#div1{
+    padding:15px ;
+}
+#div1 #div4{
+    width: 75%;
+    height: 100%;
+    background: #F00;
+}
+#div1 #div5{
+    width: 20%;
+    height: 100%;
+    background: #000 ;
+    float: right;
+    position: relative;
+    top: -100% ;
+}
+#div2 #div6{
+    background: #0F0;
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+}
+#div2 #div7{
+    background: #fff;
+    width:75% ;
+    height: 100%;
+    float: right;
+    position: relative;
+    top:-100%;
+    padding: 30px;
+}
+#div3{
+    padding: 20px;
+}
+#div3 #div8{
+    background: #0F0;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+}
+#div2 #div6 div{
+    background: #0000ff;
+    width: 100%;
+    height: 6%;
+    margin: 15px auto;    
+}
+#div2 #div7 div{
+    background: #000;
+    width: 20%;
+    height: 30%;
+     margin: 10px; 
+    float: left;
+}
