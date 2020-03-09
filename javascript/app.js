@@ -1,11 +1,11 @@
 var a = 5;
 var b = 2;
-alert( 'a = '+a+ ' b = '+b+' Suma: '+(a+b)+' Resta: '+(a-b)+' Multiplicación: '+(a*b)+' División: '+(a/b)+' Modulo: '+(a%b));
+alert( 'a = '+a+ ' b = '+b+' Suma: '+(a+b)+' Resta: '+(a-b)+' Multiplicación: '+(a*b)+' División: '+(a/b)+' Incremento: a = ' +(++a)+' b = '+(++b)+' Decremento: a = '+(--a)+' b = '+(--b) );
 var dias = 4563;
 console.log('Viviste aproximadamente unos '+ parseInt(dias / 365)+' años');
 console.log('Viviste aproximadamente unos '+ parseInt(dias / 365)+ ' años y '+(dias % 365 ) +' dias ')
 var meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
-alert(meses[4]+' '+meses[10]);
+alert(meses[5]+' '+meses[11]);
 var v = [true, false,0,"hola","adios", 4, 2];
 var c = v[5];
 var d = v[6];
