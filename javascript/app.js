@@ -7,6 +7,8 @@ console.log('Viviste aproximadamente unos '+ parseInt(dias / 365)+ ' años y '+(
 var meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
 alert(meses[5]+' '+meses[11]);
 var v = [true, false,0,"hola","adios", 4, 2];
+console.log(' true || false = ' + (v[0] || v[1]) +' Operador OR');
+console.log(' true && flase = ' + (v[0] && v[1]) +' Operador AND');
 var c = v[5];
 var d = v[6];
 console.log('suma: ' + (c+d) + ', resta: '+(c-d)+', multiplicación: '+(c*d)+', división: '+(c/d)+', modulo: '+(c%d) );
